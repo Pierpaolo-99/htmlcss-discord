@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container{
@@ -247,12 +247,11 @@ a{
 
 #second_title_technology{
     font-size: 30px;
-    padding: 2rem;
     background-image: url(../img/stars.svg);
     background-size: contain;
 }
 
-#btn_community{
+#btn_technology{
     padding: 1rem 2rem;
     font-size: 20px;
     border-radius: 2rem;
@@ -289,11 +288,60 @@ a{
 .contacts{
     width: 40%;
     height: 580px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+
+    h2{
+        color: #7289da;
+        font-size: 40px;
+        padding-bottom: 2rem;
+    }
+
+    img{
+        width: 30px;
+    }
+
+    .lang{
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .social_icon{
+        padding-top: 2rem;
+
+        span{
+            padding-right: 1rem;
+            font-size: 24px;
+        }
+    }
+}
+
+.border{
+    border-bottom: 1px solid #ffffff;
 }
 
 .list{
     width: 15%;
     height: 580px;
+    display: flex;
+    justify-content: space-around;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list_title{
+        color: #1e90ff;
+        font-weight: 700;
+    }
+
+    li{
+        list-style: none;
+        padding: 0.5rem;
+        color: #ffffff;
+    }
 }
 
 footer{
@@ -306,6 +354,13 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
+}
+
+.register{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    background-color: #8ea1e1;
 }
 
 .logo_foot,
