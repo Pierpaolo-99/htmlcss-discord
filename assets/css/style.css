@@ -184,6 +184,17 @@ a{
 
 .invite_only{
     background-color: #ffffff;
+
+    p{
+        padding: 1rem 4rem 4rem 4rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+#title_invite_only{
+    padding: 4rem 4rem 0 4rem;
+    font-size: 45px;
 }
 
 .community{
