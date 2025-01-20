@@ -7,6 +7,7 @@
 
 .container{
     width: 80%;
+    max-width: 80%;
     margin: auto;    
     display: flex;
     justify-content: center;
@@ -132,7 +133,7 @@ a{
 
 /* Main */
 
-.jumbotron{
+#jumbotron{
     background-color: #00008b;
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -140,7 +141,6 @@ a{
 
 .jumbotron_content{
     width: 80%;
-    height: 400px;
     color: #ffffff;
     text-align: center;
 
@@ -182,7 +182,7 @@ a{
 
 }
 
-.invite_only{
+#invite_only{
     background-color: #ffffff;
 
     p{
@@ -203,8 +203,8 @@ a{
 }
 
 
-.community{
-    background-color: #d3d3d3;
+#community{
+    background-color: #f6f6f6;
 
     p{
         padding: 1rem 4rem 4rem 4rem;
@@ -213,8 +213,7 @@ a{
     }
 }
 
-
-.fandom{
+#fandom{
     background-color: #ffffff;
 
     p{
@@ -229,8 +228,8 @@ a{
     font-size: 45px;
 }
 
-.technology{
-    background-color: #d3d3d3;
+#technology{
+    background-color: #f6f6f6;
     text-align: center;
     
     p{
@@ -265,23 +264,16 @@ a{
     }
 }
 
-.invite_only_image,
-.community_image,
-.fandom_image{
+image{
     width: 60%;
-    height: 500px;
 }
 
-.invite_only_text,
-.community_text,
-.fandom_text{
+text{
     width: 40%;
-    height: 500px;
 }
 
 .technology_content{
     width: 100%;
-    height: 900px;
 }
 
 
@@ -324,8 +316,6 @@ a{
 .list{
     width: 15%;
     height: 580px;
-    display: flex;
-    justify-content: space-around;
 
     ul{
         display: flex;
@@ -344,15 +334,16 @@ a{
     }
 }
 
-footer{
+#site_footer{
     background-color: #23272a;
 }
 
-.footer{
+#footer{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 0;
 }
 
