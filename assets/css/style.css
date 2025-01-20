@@ -197,16 +197,73 @@ a{
     font-size: 45px;
 }
 
+#title_community{
+    padding: 4rem 4rem 0 4rem;
+    font-size: 45px;
+}
+
+
 .community{
     background-color: #d3d3d3;
+
+    p{
+        padding: 1rem 4rem 4rem 4rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+    }
 }
+
 
 .fandom{
     background-color: #ffffff;
+
+    p{
+        padding: 1rem 4rem 4rem 4rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+#title_fandom{
+    padding: 4rem 4rem 0 4rem;
+    font-size: 45px;
 }
 
 .technology{
     background-color: #d3d3d3;
+    text-align: center;
+    
+    p{
+        font-size: 20px;
+        line-height: 2rem;
+        padding: 0 4rem;
+    }
+}
+
+#title_technology{
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+#second_title_technology{
+    font-size: 30px;
+    padding: 2rem;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+#btn_community{
+    padding: 1rem 2rem;
+    font-size: 20px;
+    border-radius: 2rem;
+    font-weight: 400;
+    background-color: #8ea1e1;
+    border: none;
+    margin: 1rem;
+
+    span{
+        padding-right: 0.5rem;
+    }
 }
 
 .invite_only_image,
