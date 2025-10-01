@@ -205,7 +205,7 @@ a{
 
 #community{
     background-color: #f6f6f6;
-
+}
     p{
         padding: 1rem 4rem 4rem 4rem;
         line-height: 1.5rem;
@@ -275,6 +275,7 @@ text{
 .technology_content{
     width: 100%;
 }
+
 
 
 .contacts{
